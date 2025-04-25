@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sin,cos,tan Rechner</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="sin">
+        <p>sin(a) = Gegenkathete / Hypothenuse</p>
+        <input id="sinGegenkathete" type="number" placeholder="Gegenkathete in cm">
+        <input id="sinHypotenuse" type="number" placeholder="Hypotenuse in cm">
+        <button onclick="berechnenSin()">Berechnen</button>
+        <label>sin(a)=</label>
+        <p id="sinoutput" type="number" placeholder="sin(a)"></p>
+       
+    </div>
+    <div class="cos">
+        <p>cos(a) = Ankathete / Hypothenuse </p>
+        <input id="Ankathete" type="number" placeholder="Ankathete in cm">
+        <input id="Hypothenuse2" type="number" placeholder="Hypothenuse in cm">
+        <button onclick="berechnenCos()">Berechnen</button>
+        <label>cos(a)=</label>
+        <p id="cosoutput" type="number" placeholder="cos(a)">
+    </div>
+    <div class="tan">
+        <p>tan(a) = Gegenkathete / Ankathete</p>
+        <input id="Gegenkathete2" type="number" placeholder="Gegenkathete in cm">
+        <input id="Ankathete2" type="number" placeholder="Ankathete in cm">
+        <button onclick="berechnenTan()">Berechnen</button>
+        <label>tan(a)=</label>
+        <p id="tanoutput" type="number" placeholder="tan(a)">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
