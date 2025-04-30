@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechner</title>
+</head>
+<body>
+    <div class="checkboxen">
+    <input type="radio" id="sin" onclick="sin()" name="formel" value="sin">
+    <label for="sin"> sin</label> 
+    <input type="radio" id="cos" onclick="cos()" name="formel" value="cos">
+    <label for="cos"> cos</label>
+    <input type="radio" id="tans" onclick="tans()" name="formel" value="tans">
+    <label for="tans">tans</label>
+    </div>
+    <div class="formeloutput">
+    <p id="formel"></p>
+    </div>
+  
+        <input id="x" type="number" value="x">
+        <input id="y" type="number" value="y">
+    
+    <div class="berechnen">
+        <button onclick="berechnen()">Berechnen</button>
+    </div>
+
+    <div class="Ergebnis">
+        <p id="Ergebnis"></p>
+    </div>
+    
+
+    <script src="/index.js"></script>
+</body>
+</html>
